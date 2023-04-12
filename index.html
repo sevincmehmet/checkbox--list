@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            background-color: rgb(250, 250, 250);
+        }
+        /* List group */
+
+        .list-group-items {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: rgb(0, 35, 75);
+            border-radius: 5px;
+        }
+
+        .list-group-item:hover {
+            color: rgb(2, 120, 255);
+        }
+
+        .list-group-item {
+            background-color: rgba(21, 0, 255, 0.04);
+            border-radius: 5px;
+            padding: 15px ;
+            color: rgb(0, 35, 75);
+
+        }
+        
+        .list-group input[type="radio"] {
+            position: absolute;
+            top: calc(50% - 6.7px);
+            left: 13px;
+        }
+
+        .list-group input[type="radio"]+.list-group-item {
+            cursor: pointer;
+        }
+
+        .list-group input[type="radio"]+.list-group-item:before {
+            content: "\2022";
+            color: transparent;
+            font-weight: bold;
+            margin-right: 1em;
+        }
+        .radio-input:checked ~ .radio-label {
+     color: rgb(2, 120, 255);
+        }
+    </style>
+
+    <title>Ücret Yönetimi | Salary-Dashboard</title>
+
+</head>
+
+<body>
+
+
+    <div class="container" style="padding-top: 50px;padding-bottom: 50px;background-color: #fff;border-radius: 10px;box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25)">
+        <div class="text-capitalize ms-3" style=" padding-top:30px;color:#666">
+            <h3 class="fw-bolder" style="color: rgba(0, 30, 65, 0.753)">salary dashboard - ücret yönetimi</h3>
+            <h5 class="mb-2 mt-5 fw-light" style="color: #bbb;">Aktif şirket seçimi:</h5>
+        </div>
+        <div class="row" style="border-radius: 10px;">
+
+            <div class="col-lg-6 col-md-12">
+
+                <div class="list-group p-3">
+                    
+                    <div class="position-relative list-group-items align-items-center">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value1" id="Radio1" />
+                        <label class="list-group-item  radio-label border-0" for="Radio1">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value2" id="Radio2" />
+                        <label class="list-group-item radio-label border-0" for="Radio2">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value3" id="Radio3" />
+                        <label class="list-group-item radio-label border-0" for="Radio3">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value4" id="Radio4" />
+                        <label class="list-group-item radio-label border-0" for="Radio4">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value5" id="Radio5" />
+                        <label class="list-group-item radio-label border-0" for="Radio5">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value6" id="Radio6" />
+                        <label class="list-group-item radio-label border-0" for="Radio6">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value7" id="Radio7" />
+                        <label class="list-group-item radio-label border-0" for="Radio7">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value8" id="Radio8" />
+                        <label class="list-group-item radio-label border-0" for="Radio8">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value9" id="Radio9" />
+                        <label class="list-group-item radio-label border-0" for="Radio9">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+
+                <div class="list-group p-3">
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value10" id="Radio10" />
+                        <label class="list-group-item radio-label border-0" for="Radio10">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value11" id="Radio11" />
+                        <label class="list-group-item radio-label border-0" for="Radio11">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value12" id="Radio12" />
+                        <label class="list-group-item radio-label border-0" for="Radio12">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value13" id="Radio13" />
+                        <label class="list-group-item radio-label border-0" for="Radio13">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value14" id="Radio14" />
+                        <label class="list-group-item radio-label border-0" for="Radio14">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value15" id="Radio15" />
+                        <label class="list-group-item radio-label border-0" for="Radio15">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value16" id="Radio16" />
+                        <label class="list-group-item radio-label border-0" for="Radio16">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value17" id="Radio17" />
+                        <label class="list-group-item radio-label border-0" for="Radio17">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+                    <div class="position-relative list-group-items">
+                        <input type="radio" class="radio-input" name="RadioInputName" value="Value18" id="Radio18" />
+                        <label class="list-group-item radio-label border-0" for="Radio18">ALÜMİNYUM SAN. ve TİC. A.Ş</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
